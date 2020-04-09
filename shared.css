@@ -58,8 +58,13 @@ body {
     font-weight: bold;
     font-size: 22px;
     color: #0e4f1f;
+    height: 24px;
+    display: inline-block;
 }
 
+.main-header__brand img {
+    height: 100%;
+}
 
 .main-nav {
     display: inline-block;

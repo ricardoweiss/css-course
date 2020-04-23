@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -37,6 +39,13 @@ main {
 
 .button:focus {
     outline: none;
+}
+
+.button[disabled] {
+    cursor: not-allowed;
+    background: #cccccc;
+    color: #a1a1a1;
+    border: #a1a1a1;
 }
 
 .backdrop {
